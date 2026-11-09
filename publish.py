@@ -1,0 +1,11 @@
+import re
+s=open('dist/index.html').read()
+styles=re.findall(r'<style[^>]*>.*?</style>',s,re.S)
+scripts=re.findall(r'<script type="module"[^>]*>.*?</script>',s,re.S)
+links=re.findall(r'<link rel="(?:preconnect|stylesheet)"[^>]*>',s)
+head='<title>Heaven & Voice</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n<meta name="color-scheme" content="dark">\n'+'\n'.join(links)
+out=head+'\n'+'\n'.join(styles)+'\n<div id="root"></div>\n'+'\n'.join(scripts)
+open('dist/page.html','w').write(out)
+used=sorted(set(re.findall(r'm/[a-z0-9-]+\.(?:jpg|mp4|png)',s)))
+import json; open('dist/files.json','w').write(json.dumps({u:u for u in used}))
+print(len(out), len(used)); print(json.dumps({u:u for u in used}))

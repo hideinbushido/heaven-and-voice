@@ -103,5 +103,7 @@ Retour utilisateur : l'esthétique v1 faisait « trop IA, trop pastel ». Demand
 - 2026-11-09 : **une animation de texte différente par endroit**, toutes reprises de 21st.dev : Stroke Draw (HEAVEN), Fluid Text Morph (mille formats → en duo → en trio → à six → et plus), Word Pull Up (Entrez par la bonne porte), Vertical Cut Reveal (Un collectif, une famille), Layered Text (L'équipe), Motion Blur Text (genres), Text Shimmer Wave (tout de suite), Text Rotate (Pour quel mariage / gala / concert…), Text Highlight (votre événement), Gradual Spacing (lignes de contact).
 - 2026-11-09 : **police finale : Instrument Serif** (titres et noms, avec l'italique pour les accents ; choix B sur la planche de 6 polices), et Work Sans pour le texte et les étiquettes. Fichiers OFL intégrés au site.
 
+- 2026-11-09 : **mis en ligne**. Dépôt privé GitHub hideinbushido/heaven-and-voice (branche `main`), projet Vercel heaven-and-voice relié au dépôt (chaque push sur main redéploie). Lien public : https://heaven-and-voice.vercel.app . La version en ligne n'a pas le bouton « Référence » ni les captures des sites de référence (VITE_SHOW_REFS non défini) ; la maquette en artefact les garde.
+
 ## Prochaine étape
-Vraies photos, noms, textes et coordonnées des membres.
+Retours du groupe ; vraies photos, noms, textes et coordonnées des membres.
